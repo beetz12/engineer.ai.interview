@@ -22,7 +22,7 @@ export class AppComponent {
 
     b1.subscribe('A');
     b2.subscribe('B');
-    b3.sendMessage('B', 'hello foo');
+    b3.sendMessage('B', 'hello engineer.ai!');
 
 
 

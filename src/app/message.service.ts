@@ -17,7 +17,7 @@ export class MessageService {
 
   createItemObserver(channelName: string, item: IMQItem): object {
    return {
-      next: msg => console.log(`Message: ${msg} received by ${item.name} on channel ${channelName}`),
+      next: msg => console.log(`Message: ${msg} received by ${item.name} on channel ${channelName}.`),
       error: err => console.log(`ERROR: ${err}`),
       complete: () => console.log(`All done!`)
     };
